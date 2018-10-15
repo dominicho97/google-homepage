@@ -77,3 +77,33 @@ left:-50px;
   top:125px;
   left:575px;
 }
+
+.button-2{
+  font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  color: #757575;
+  display: inline-block;
+    line-height: 35px;
+    padding: 0 20px;
+    position: absolute;
+    top:400px;
+    left:650px;
+}
+
+.button-3{
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  color: #757575;
+  display: inline-block;
+    line-height: 35px;
+    padding: 0 20px;
+    position: absolute;
+    top:400px;
+    left:800px;
+}

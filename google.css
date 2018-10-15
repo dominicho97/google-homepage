@@ -30,8 +30,9 @@ li {
 
 
 a{
-  font-size: 15px;
+  font-size: 13px;
   text-decoration: none; 
+  
 }
 
 .button {
@@ -109,3 +110,16 @@ left:-50px;
     left:800px;
 }
 
+.beveiliging-image{
+  position: absolute;
+  top: 450px;
+  left: 508px;
+}
+
+.beveiliging-text{
+  position: absolute;
+  top: 450px;
+  left: 550px;
+  font-family: arial,sans-serif;
+  font-size: small;
+}

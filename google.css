@@ -2,6 +2,7 @@
 
 .right-navbar{
 float: right;
+
 }
 
 
@@ -13,8 +14,8 @@ ul {
 }
 
 li {
-    display: inline-block;
-    font-family: arial,sans-serif;
+  display: inline-block;
+  font-family: arial,sans-serif;
 }
 
 
@@ -40,4 +41,39 @@ a{
   display: inline-block;
     line-height: 28px;
     padding: 0 12px;
+}
+
+.footer-navbar{
+  float:right;
+  margin-right: 20px;
+
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgba(0,0,0,.54);
+  color: black;
+  text-align: center;
+
+}
+
+.searchbar{
+position: absolute;
+top: 200px;
+left:-50px;
+  
+}
+
+.searchbar input{
+  width: 540px;
+  height: 35px;
+}
+
+.google-logo {
+  position:absolute;
+  top:125px;
+  left:575px;
 }

@@ -2,6 +2,8 @@
 
 .right-navbar{
 float: right;
+margin-right: 20px;
+margin-top: 10px;
 
 }
 
@@ -65,13 +67,15 @@ footer{
 .searchbar{
 position: absolute;
 top: 200px;
-left:-50px;
+left:-82px;
+
   
 }
 
 .searchbar input{
-  width: 540px;
-  height: 35px;
+  height: 34px;
+  width: 360%;
+  
 }
 
 .google-logo {

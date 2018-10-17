@@ -2,8 +2,8 @@
 
 .right-navbar{
 float: right;
-margin-right: 20px;
-margin-top: 10px;
+margin-top: 12px;
+margin-left: 10px;
 
 }
 
@@ -20,13 +20,17 @@ li {
   font-family: arial,sans-serif;
 }
 
-
+.navbar-ul li {
+  margin-right: 15px;
+}
 
 
 #apps{
   height: 20px;
     opacity: 0.60;
-    display: inline-block;
+    /*display: inline-block;*/
+    position: relative;
+    bottom: -5px;
    
 }
 
@@ -49,19 +53,32 @@ a{
 
 .footer-navbar{
   float:right;
-  margin-right: 20px;
-
+  margin-right: 10px;
+  color: #5f6368;
+  text-decoration: none;
+  margin-top: 40px;
+  
 }
 
 footer{
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color:rgba(0,0,0,.54);
-  color: black;
-  text-align: center;
+  background-color:#f2f2f2;
+  color: #e4e4e4;
+  position:fixed;
+  font-family: arial,sans-serif;
+  line-height: 40px;
+  
+  
+  
 
+}
+
+footer a{
+  color: #5f6368;
+  margin-left: 26px;
+  margin-right: 12px;
 }
 
 .searchbar{
@@ -134,4 +151,15 @@ left:-82px;
   left: 618px;
   font-size:small;
   font-family: arial,sans-serif;
+}
+
+.belgië{
+  padding-left: 27px;
+  color: rgba(0,0,0,.54);
+  text-align: left;
+  font-size: 15px;
+  top:-20px;
+  display: block;
+  
+    
 }
